@@ -1,0 +1,153 @@
+* {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(163, 220, 220);
+
+}
+
+.newacc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#create {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.already a {
+    padding: 0rem .5rem;
+}
+
+
+.square {
+    margin-top: 12rem;
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insquare {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.email input {
+    
+    background-color: rgb(243, 243, 243);
+    outline: none;
+    border: none;
+    width: 25.5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+
+.email input[type="text"]::placeholder {          
+    padding-left: .9rem; 
+} 
+
+.name {
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 0rem;
+}
+
+.firstname input {
+    
+    background-color: rgb(243, 243, 243);
+    outline: none;
+    border: none;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+
+.firstname input[type="text"]::placeholder {          
+    padding-left: .9rem; 
+} 
+
+.lastname input[type="text"]::placeholder {          
+    padding-left: .9rem; 
+}
+
+.lastname {
+    padding-left: 1rem;
+}
+
+.lastname input {
+    background-color: rgb(243, 243, 243);
+    outline: none;
+    border: none;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+
+.password {
+    padding: .5rem 0rem;
+}
+
+.password input[type="password"]::placeholder {          
+    padding-left: .9rem; 
+} 
+
+.password input {
+    background-color: rgb(243, 243, 243);
+    outline: none;
+    border: none;
+    width: 25.5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+
+.tos {
+    padding: .5rem 0rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+
+#spann {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.already {
+    display: flex;
+}
+
+.signup button {
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    width: 26rem;
+    background-color: rgb(11, 98, 185);
+}
+
+.signup button:hover {
+    background-color: rgb(11, 6, 136);
+    transition: .3s;
+}
+
+.signup button li {
+    color: white;
+    margin: 1.3rem 7rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
