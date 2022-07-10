@@ -4,15 +4,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(163, 220, 220);
+    background-color: rgb(196, 163, 220);
 
 }
 
 .newacc {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #create {
@@ -20,18 +20,31 @@ body {
     font-weight: bolder;
 }
 
+.already {
+    padding-left: 0.65rem;
+}
+
 .already a {
     padding: 0rem .5rem;
 }
 
+.complete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .square {
-    margin-top: 12rem;
-    background: none;
+    margin-top: 6rem;
+    border-radius: 2.5rem;
+    background-color: beige;
+    width: 30rem;
+    height: 32rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.234);
 }
 
 .insquare {
@@ -48,10 +61,10 @@ body {
 
 .email input {
     
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
-    width: 25.5rem;
+    width: 25rem;
     height: 2.5rem;
     border-radius: .5rem;
 }
@@ -68,7 +81,7 @@ body {
 
 .firstname input {
     
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
     width: 12rem;
@@ -89,7 +102,7 @@ body {
 }
 
 .lastname input {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
     width: 12rem;
@@ -106,10 +119,10 @@ body {
 } 
 
 .password input {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
-    width: 25.5rem;
+    width: 25rem;
     height: 2.5rem;
     border-radius: .5rem;
 }
@@ -136,13 +149,13 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 1rem;
-    width: 26rem;
+    width: 25rem;
     background-color: rgb(11, 98, 185);
 }
 
 .signup button:hover {
-    background-color: rgb(11, 6, 136);
-    transition: .3s;
+    background-color: rgb(85, 0, 118);
+    transition: .5s;
 }
 
 .signup button li {
