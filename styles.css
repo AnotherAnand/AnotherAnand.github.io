@@ -69,10 +69,6 @@ body {
     border-radius: .5rem;
 }
 
-/*.email input[type="text"]::placeholder {          
-    padding-left: .9rem; 
-} --!*/
-
 .name {
     display: flex;
     flex-direction: row;
@@ -80,7 +76,7 @@ body {
 }
 
 .firstname input {
-    
+    padding: 7px;
     background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
@@ -89,19 +85,12 @@ body {
     border-radius: .5rem;
 }
 
-.firstname input[type="text"]::placeholder {          
-    padding-left: .9rem; 
-} 
-
-.lastname input[type="text"]::placeholder {          
-    padding-left: .9rem; 
-}
-
 .lastname {
     padding-left: 1rem;
 }
 
 .lastname input {
+    padding: 7px;
     background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
@@ -114,11 +103,8 @@ body {
     padding: .5rem 0rem;
 }
 
-.password input[type="password"]::placeholder {          
-    padding-left: .9rem; 
-} 
-
 .password input {
+    padding: 7px;
     background-color: rgb(226, 226, 226);
     outline: none;
     border: none;
